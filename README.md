@@ -1,25 +1,23 @@
-# README
+THP - Semaine 4 - Doctor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bundle install and you're ready to go
 
-Things you may want to cover:
+# Tables
 
-* Ruby version
+   - City
+   - Doctor
+   - Specialty
+   - Patient
+   - Appointment
 
-* System dependencies
+# Requirements
 
-* Configuration
+An appoint could be added by a Doctor or a Patient
+Doctors and Patients can have many appointments
+A doctor can have many Patients through an appointment (reverse is also true)
+A doctor can have many Specialties, and a Specialty can have many doctors
 
-* Database creation
+Version software
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Doctor
+   - Ruby version 2.5.1
+   - Rails version 5.2.1
