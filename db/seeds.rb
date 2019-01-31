@@ -27,6 +27,7 @@ end
 10.times do
   Specialty.create(
       specialty_name: Faker::Company.profession,
+      doctor_id: rand(1..Doctor.all.count)
       )
 end
 

@@ -3,4 +3,5 @@ class DeleteColumnSpecialty < ActiveRecord::Migration[5.2]
     change_table :doctors do |t|
     t.remove :doctors, :specialty
   end
+  end
 end
